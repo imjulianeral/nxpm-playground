@@ -1,12 +1,13 @@
 import './hello-world.module.css';
 
-/* eslint-disable-next-line */
-export interface HelloWorldProps {}
+export interface HelloWorldProps {
+  name: string;
+}
 
-export function HelloWorld(props: HelloWorldProps) {
+export function HelloWorld({ name }: HelloWorldProps) {
   return (
     <div>
-      <h1>Welcome to HelloWorld!</h1>
+      <h1>Hello {name}!</h1>
     </div>
   );
 }

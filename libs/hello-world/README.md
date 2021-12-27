@@ -1,6 +1,6 @@
 # hello-world
 
-This library was generated with [Nx](https://nx.dev).
+Package to greet people
 
 ## Running unit tests
 
