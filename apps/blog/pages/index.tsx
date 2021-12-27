@@ -1,3 +1,4 @@
+import { HelloWorld } from '@imjulian/hello-world';
 import styles from './index.module.css';
 
 export function Index() {
@@ -11,10 +12,7 @@ export function Index() {
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
-            <h1>
-              <span> Hello there, </span>
-              Welcome blog 👋
-            </h1>
+            <HelloWorld name="Nx" />
           </div>
 
           <div id="hero" className="rounded">
